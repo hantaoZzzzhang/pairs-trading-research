@@ -1,0 +1,2 @@
+﻿method,pair_selection,windows_traded,trade_count,start_equity,final_equity,net_profit,cagr,ann_vol,sharpe,sortino,max_drawdown,hit_rate,payoff_ratio,annual_turnover
+gatev,non_overlapping,4,38,100000.0,103387.60628469918,3387.6062846991845,0.01686444376516416,0.0453658610810469,0.3912895273393207,0.5799208027349865,-0.03934513727073847,0.5040485829959515,1.0534544038294975,7.178458374274532

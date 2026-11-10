@@ -27,7 +27,7 @@ def test_run_backtest_and_metrics():
         capital=100_000.0,
         dollar_per_leg=50_000.0,
     )
-    assert set(bt.keys()) == {"trades", "portfolio"}
+    assert set(bt.keys()) == {"trades", "portfolio", "positions"}
     portfolio = bt["portfolio"]
     # Required columns
     for c in ("equity", "daily_ret", "drawdown", "gross_exposure", "daily_turnover"):

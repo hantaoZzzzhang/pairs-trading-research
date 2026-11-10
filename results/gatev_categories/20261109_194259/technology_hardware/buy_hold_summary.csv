@@ -1,0 +1,2 @@
+﻿category,requested_tickers,usable_tickers,failed_tickers,method,start_equity,gross_final_equity,final_equity,net_profit,cagr,ann_vol,sharpe,sortino,max_drawdown,hit_rate,payoff_ratio,annual_turnover
+technology_hardware,22,22,,equal_weight_buy_hold,100000.0,350089.01272973884,350018.99492719286,250018.99492719286,0.19638846946934763,0.290287940429177,0.7634398972610235,1.0584881354585405,-0.38512478324820615,0.5357954545454545,0.98973495105859,0.0

@@ -82,7 +82,8 @@ def run_backtest(
 
     # Cash account and equity curve
     cash = capital + cash_flow.cumsum()
-    pos_val = (qty * px).sum(axis=1)
+    position_values = qty * px
+    pos_val = position_values.sum(axis=1)
     equity = (cash + pos_val).astype(float)
 
     # Daily returns
@@ -147,7 +148,13 @@ def run_backtest(
     )
     trades.index.name = "Date"
 
-    return {"trades": trades, "portfolio": portfolio}
+    return {
+        "trades": trades,
+        "portfolio": portfolio,
+        # Signed dollar value of each leg, retained for stock-level exposure
+        # diagnostics when several pair books share the same ticker.
+        "positions": position_values,
+    }
 
 
 def _annualized_turnover(daily_turnover: pd.Series | None) -> float:

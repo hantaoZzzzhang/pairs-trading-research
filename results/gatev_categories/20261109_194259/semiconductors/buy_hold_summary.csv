@@ -1,0 +1,2 @@
+﻿category,requested_tickers,usable_tickers,failed_tickers,method,start_equity,gross_final_equity,final_equity,net_profit,cagr,ann_vol,sharpe,sortino,max_drawdown,hit_rate,payoff_ratio,annual_turnover
+semiconductors,18,18,,equal_weight_buy_hold,100000.0,517430.8343124773,517327.34814561484,417327.34814561484,0.26518090820366624,0.3730110849540041,0.8177974854845237,1.1707993453811185,-0.49679761789636667,0.5363636363636364,0.9942827622880691,0.0

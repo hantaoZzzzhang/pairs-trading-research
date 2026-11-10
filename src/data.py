@@ -18,11 +18,19 @@
 from __future__ import annotations
 
 import os
+from pathlib import Path
 from typing import Dict, List
 
 import matplotlib.pyplot as plt
 import pandas as pd
 import yfinance as yf
+
+
+# Keep yfinance's timezone cache inside the project so the downloader does not
+# depend on a user-level cache directory with machine-specific permissions.
+YFINANCE_CACHE_DIR = Path.cwd() / ".yfinance_cache"
+YFINANCE_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+yf.set_tz_cache_location(str(YFINANCE_CACHE_DIR))
 
 
 # Internal helpers

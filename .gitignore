@@ -11,6 +11,10 @@ __pycache__/
 .env.*
 .vscode/
 .idea/
+.yfinance_cache/
+.pytest_cache/
+.pytest-*/
+pytest-cache-files-*/
 
 #OS files
 .DS_Store

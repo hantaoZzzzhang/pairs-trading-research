@@ -1,0 +1,2 @@
+﻿category,requested_tickers,usable_tickers,failed_tickers,method,start_equity,gross_final_equity,final_equity,net_profit,cagr,ann_vol,sharpe,sortino,max_drawdown,hit_rate,payoff_ratio,annual_turnover
+airlines,9,8,SAVE,equal_weight_buy_hold,100000.0,91116.5687567457,91098.34544299435,-8901.654557005648,-0.013224493240852953,0.4178757717303683,0.17837605157558092,0.24152719884262164,-0.655613856121155,0.5011363636363636,1.0299001349911467,0.0

@@ -1,0 +1,2 @@
+﻿category,requested_tickers,usable_tickers,failed_tickers,method,start_equity,gross_final_equity,final_equity,net_profit,cagr,ann_vol,sharpe,sortino,max_drawdown,hit_rate,payoff_ratio,annual_turnover
+retail,13,13,,equal_weight_buy_hold,100000.0,221287.2054484877,221242.948007398,121242.948007398,0.12037503614263834,0.21066382607403475,0.6456671945077427,0.8231265909260079,-0.3005677105133446,0.5375,0.9671384712952378,0.0
